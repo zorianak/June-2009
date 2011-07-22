@@ -1,0 +1,461 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+	border: 0;
+	outline: 0;
+	height: 100%;
+	background: #000;
+}
+
+p {
+	line-height: 1.5em;	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 85%;
+}
+
+a img {
+	border: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+h4 {
+	font-variant: small-caps;
+	margin: 2.5em 0 0 0;
+	padding: 0 0 0 0;
+	color: #8F0834;
+	border-bottom: 1px #fae2eb dotted;
+}
+
+h5 {
+	font-variant: small-caps;
+}
+
+blockquote {
+	width: 280px;
+	float:left;
+	background: url(images/blockquote.gif) top left no-repeat;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 140%;
+	border-left: 2px #fae2eb dotted;
+	padding-left: 1em;
+}
+
+.definition {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	font-size: 130%;
+	color: #8F0834;
+}
+
+.fontserif {
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+	background: #000 url(images/bodybackground.jpg) top center no-repeat;
+	margin: 0 auto 0 auto;
+	padding-top: 2em;
+	width: 1024px;
+}
+
+
+
+.navigation {
+	display: block;
+	height: 100px;
+}
+
+.navigation ul {
+	float:right;
+	line-height: 1.3em;
+	display:block;
+	margin-top: 2em;
+}
+
+.navigation li {
+	display:inline;
+
+}
+
+.navigation ul li {
+	display: inline;
+	float: left;
+	margin-left: 1.3em;
+	letter-spacing: .3em;
+	padding-top: .5em;
+}
+
+.navigation li a {
+	display: block;
+	font-variant: small-caps;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.3em;
+	background: url(images/navbg.png) -9999em no-repeat;
+	overflow: hidden;
+	line-height:40px; 
+}
+
+.navigation a:hover {
+	background: url(images/navbg.png) top center no-repeat;
+	text-decoration: none;
+}
+
+
+.navigation img {
+	float: left;
+}
+
+
+
+
+.centered {
+	text-align: center;
+}
+
+.bordering {
+	padding: 10px;
+	background:url(images/borderingbg.png);
+}
+
+
+/* for some special text effects */
+
+.sites {
+	color: #e6d5e9;
+	font-weight: bold;
+}
+
+.graphics {
+	color: #ffff99;
+	font-weight:bold;
+}
+
+.pshop {
+	color: #ccffff;
+	font-weight: bold;
+}
+
+.illustrator {
+	color: #ffcc99;
+	font-weight: bold;
+}
+
+.xhtml {
+	color: #c4df9b;
+	font-weight: bold;
+}
+
+.css {
+	color: #c6f6f3;
+	font-weight: bold;
+}
+
+/* for the major content area */
+
+.content {
+	color: #000;
+	background: #fff;
+	padding: .3em;
+}
+
+.content a {
+	text-decoration: none;
+	color: #E10043;
+}
+
+.content a:hover {
+	border-bottom: 1px solid #8F0834;
+	color: #8F0834;
+}
+
+
+/*for the front threecolumns, and for similar columns */
+
+.threecol {
+	width: 290px;
+	float:left;
+	padding: .8em;
+}
+
+
+/*for front page-specific styles*/
+
+.fronttemp h3 {
+	font-variant: small-caps;
+	border-bottom: 1px solid #fae2eb;
+	letter-spacing: .2em;
+}
+
+.fronttemp img {
+	float: left;	
+}
+
+
+/* for the elements in portfolio.php */
+
+.design {
+	
+}
+
+.design img {
+	float: left;
+}
+
+
+
+/*for the elements in the blog */
+
+#menu {
+	width: 240px;
+	float:left;
+	margin-left: .5em;
+	padding-left: 1em;
+	font-size: 90%;
+	border-left: #fae2eb 1px dotted;
+}
+
+.blogcontent {
+	width: 700px;
+	float:left;
+	margin-left: .5em;
+}
+
+.blogcontent h3 {
+	border-bottom: 1px solid #fae2eb;
+margin-top: .5em;
+}
+
+.commentlist {
+     list-style-type: none;
+}
+
+.commentlist li {
+     padding: .5em;
+     padding-top: 1.5em;
+     border-bottom: 1px solid #CEE5F3;
+}
+
+.bypostauthor {
+     background-color: #FFEFF4;
+}
+
+.comment-author{
+     width: 150px;
+     padding: 10px;
+     float: left;
+     border: 1px solid #eee;
+     margin-right: .5em;
+}
+
+.comment-author span {
+}
+
+#respond {
+     width: 700px;
+     float:right;
+     border: 1px solid #DF7D9D;
+     padding: .3em;
+     background: #FFEFF4;
+}
+
+#respond h3 {
+     border-bottom: none;
+}
+
+#comment {
+     width: 650px;
+}
+
+#commentluv {
+     border: 1px solid #DF7D9D;
+     background-color: #FFEFF4;
+}
+
+#twitter_update_list li {
+     margin-bottom: 1em;
+}
+
+.blognavigation {
+     height: 1em;
+margin: .5em 0 1.5em 0;
+}
+
+.alignleft {
+float:left;
+}
+
+.alignright {
+float:right;
+}
+
+
+
+/* for elements in contact.php */
+
+#contactme {
+	width: 450px;
+	float:left;
+	padding: .5em .5em .5em 1.6em;
+}
+
+.small {
+	font-size: 70%;
+	font-weight: normal;
+	color: #666;
+	display:block;
+
+}
+
+#contactform {
+	width: 850px;
+	height: 506px;
+	margin-left: 70px;
+	float:left;
+	background: url(http://bigtotems.belinkddesign.com/wp-content/themes/june2009/images/contactme.jpg) no-repeat;
+}
+
+#contactform form {
+	margin: 150px 0 0 400px;
+	width: 400px;
+}
+
+#contactform label {
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:100px;
+	float:left;
+	font-family: 'Times New Roman', Georgia, serif;
+	letter-spacing: .09em;
+}
+
+#contactform input {
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #DEB6B9;
+	width:200px;
+	height: 2.1em;
+	margin:2px 0 20px 10px;
+}
+
+#contactform textarea {
+	float: left;
+	width: 200px;
+	border:solid 1px #DEB6B9;
+	margin-left: 10px;
+}
+
+#contactform button {
+	clear:both;
+	margin-left:100px;
+	width:125px;
+	height:31px;
+	background:#633039 url(images/button.png) no-repeat;
+	text-align:center;
+	line-height:31px;
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:bold;
+	margin-top: 1em;
+}
+
+
+
+
+/* for the elements in footer.php */
+
+.footer {
+	background: #000 url(http://belinkddesign.com/wp-content/themes/june2009/images/footerimage.png) repeat-x bottom;
+}
+
+.footerholder {
+	margin: 0px auto 0px auto;
+	width: 960px;
+	padding-bottom: 50px;
+}
+
+.bfooter a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.bfooter a:hover {
+	color: #EFA4C0;
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+}
+
+.bfooter form {
+
+}
+
+.bfooter label {
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:100px;
+	float:left;
+}
+
+.bfooter input {
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #E9F3FA;
+	width:170px;
+	margin:2px 0 20px 10px;
+}
+
+.bfooter textarea {
+	float: right;
+	width: 170px;
+}
+
+.bfooter button {
+	clear:both;
+	margin-left:100px;
+	width:125px;
+	height:31px;
+	background:#2E0010 url(images/button.png) no-repeat;
+	text-align:center;
+	line-height:31px;
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:bold;
+	margin-top: 1em;
+}
+
+
+/* for the three cols in the footer */
+
+.rssfoot {
+	background: url(images/rssicon.png) no-repeat;
+	background-position: 100px 100px;
+	min-height: 200px;
+}
+
+.confoot {
+	background: url(images/contacticon.png) no-repeat;
+	background-position: 100px 100px;
+	min-height: 200px;
+}
+
+.desfoot {
+	background: url(images/designicon.png) no-repeat;
+	background-position: 100px 100px;
+	min-height: 200px;
+}
